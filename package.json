@@ -1,0 +1,26 @@
+{
+  "name": "tree-sitter-soql",
+  "version": "1.0.0",
+  "description": "tree sitter for soql fun",
+  "main": "grammar.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "tree-sitter": [
+    {
+      "scope": "source.soql",
+      "file-types": [
+        "soql"
+      ],
+      "highlights": [
+        "queries/highlights-distinct.scm",
+        "queries/highlights.scm"
+      ]
+    }
+  ]
+}
